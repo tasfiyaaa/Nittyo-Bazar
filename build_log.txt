@@ -1,0 +1,148 @@
+Initialized native services in: /opt/gradle/.gradle/native
+Initialized jansi services in: /opt/gradle/.gradle/native
+The client will now receive all logging from the daemon (pid: 1039). The daemon log file: /opt/gradle/.gradle/daemon/9.3.1/daemon-1039.out.log
+Starting 5th build in daemon [uptime: 5 mins 20.33 secs, performance: 97%, GC rate: 0.00/s, heap usage: 0% of 4 GiB]
+Using 4 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=true, configureOnDemand=false, configurationCache=true, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=true, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/fileHashes/resourceHashesCache.bin
+Invalidating in-memory cache of /app/applet/.gradle/buildOutputCleanup/outputFiles.bin
+Encryption key source: default Gradle keystore (pkcs12)
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/journal-1/file-access.bin
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/9.3.1/fileHashes/kotlinDslCompileAvoidanceClasspathHashCache.bin
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/9.3.1/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/9.3.1/fileHashes/resourceHashesCache.bin
+Reusing configuration cache.
+Watching the file system is configured to be enabled if available
+Unable to list file systems to check whether they can be watched. Disabling watching. Reason: Could not query file systems: could not open mount file (errno 2: No such file or directory)
+File system watching is inactive
+Using local directory build cache for the root build (location = /opt/gradle/.gradle/caches/build-cache-1, remove unused entries = after 7 days).
+Tasks to be executed: [task ':app:clean', task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugBuildConfig', task ':app:generateDebugResources', task ':app:processDebugGoogleServices', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:kspDebugKotlin', task ':app:compileDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:clean (Thread[#309,Execution worker,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[#308,included builds,5,main]) started.
+:app:preBuild (Thread[#310,Execution worker Thread 2,5,main]) started.
+:app:clean (Thread[#309,Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[#308,included builds,5,main]) started.
+Resolve mutations for :app:processDebugGoogleServices (Thread[#308,included builds,5,main]) started.
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/executionHistory/executionHistory.bin
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#310,Execution worker Thread 2,5,main]) started.
+Build 32c56a51-26fc-446d-935e-4828237c94ac is started
+:app:preDebugBuild (Thread[#310,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[#310,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:generateDebugResources (Thread[#308,included builds,5,main]) started.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#311,Execution worker Thread 3,5,main]) started.
+
+> Task :app:clean
+Caching disabled for task ':app:clean' because:
+  Deletion cannot be cached
+Task ':app:clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+:app:generateDebugBuildConfig (Thread[#309,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#308,included builds,5,main]) started.
+:app:processDebugGoogleServices (Thread[#310,Execution worker Thread 2,5,main]) started.
+:app:processDebugNavigationResources (Thread[#311,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResources FROM-CACHE
+Build cache key for task ':app:generateDebugResources' is 415224b076e0ab9553ee3950e38b726c
+Task ':app:generateDebugResources' is not up-to-date because:
+  Output property 'validationReportFile' file /app/applet/app/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt has been removed.
+Loaded cache entry for task ':app:generateDebugResources' with cache key 415224b076e0ab9553ee3950e38b726c
+
+> Task :app:generateDebugBuildConfig FROM-CACHE
+Build cache key for task ':app:generateDebugBuildConfig' is c18ab6927c980fe36e482ec664384398
+Task ':app:generateDebugBuildConfig' is not up-to-date because:
+  Output property 'sourceOutputDir' file /app/applet/app/build/generated/source/buildConfig/debug has been removed.
+  Output property 'sourceOutputDir' file /app/applet/app/build/generated/source/buildConfig/debug/com has been removed.
+  Output property 'sourceOutputDir' file /app/applet/app/build/generated/source/buildConfig/debug/com/example has been removed.
+  and more...
+Loaded cache entry for task ':app:generateDebugBuildConfig' with cache key c18ab6927c980fe36e482ec664384398
+Resolve mutations for :app:kspDebugKotlin (Thread[#309,Execution worker,5,main]) started.
+
+> Task :app:processDebugGoogleServices FROM-CACHE
+Build cache key for task ':app:processDebugGoogleServices' is f726f56482f58d2cc6aae38b64ead4ff
+Task ':app:processDebugGoogleServices' is not up-to-date because:
+  Output property 'gmpAppId' file /app/applet/app/build/gmpAppId/debug.txt has been removed.
+  Output property 'outputDirectory' file /app/applet/app/build/generated/res/processDebugGoogleServices has been removed.
+  Output property 'outputDirectory' file /app/applet/app/build/generated/res/processDebugGoogleServices/values has been removed.
+  and more...
+Loaded cache entry for task ':app:processDebugGoogleServices' with cache key f726f56482f58d2cc6aae38b64ead4ff
+Resolve mutations for :app:packageDebugResources (Thread[#310,Execution worker Thread 2,5,main]) started.
+:app:kspDebugKotlin (Thread[#309,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#310,Execution worker Thread 2,5,main]) started.
+
+> Task :app:packageDebugResources FROM-CACHE
+Build cache key for task ':app:packageDebugResources' is 1e6e363e43fc2d6d235a618a019b093e
+Task ':app:packageDebugResources' is not up-to-date because:
+  Output property 'dataBindingLayoutInfoOutFolder' file /app/applet/app/build/intermediates/data_binding_layout_info_type_package/debug/packageDebugResources/out has been removed.
+  Output property 'incrementalFolder' file /app/applet/app/build/intermediates/incremental/debug/packageDebugResources has been removed.
+  Output property 'incrementalFolder' file /app/applet/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties has been removed.
+  and more...
+Loaded cache entry for task ':app:packageDebugResources' with cache key 1e6e363e43fc2d6d235a618a019b093e
+
+> Task :app:kspDebugKotlin FROM-CACHE
+Build cache key for task ':app:kspDebugKotlin' is 60a0c661bf1f0e871eb9e8fb6b7be564
+Task ':app:kspDebugKotlin' is not up-to-date because:
+  Output property 'kspConfig.kotlinOutputDir' file /app/applet/app/build/generated/ksp/debug/kotlin has been removed.
+  Output property 'kspConfig.kotlinOutputDir' file /app/applet/app/build/generated/ksp/debug/kotlin/com has been removed.
+  Output property 'kspConfig.kotlinOutputDir' file /app/applet/app/build/generated/ksp/debug/kotlin/com/example has been removed.
+  and more...
+Loaded cache entry for task ':app:kspDebugKotlin' with cache key 60a0c661bf1f0e871eb9e8fb6b7be564
+
+> Task :app:processDebugNavigationResources FROM-CACHE
+Build cache key for task ':app:processDebugNavigationResources' is 2fd1866024d7bb46655cc11354006bb3
+Task ':app:processDebugNavigationResources' is not up-to-date because:
+  Output property 'outputDir' file /app/applet/app/build/generated/updated_navigation_xml/debug has been removed.
+Loaded cache entry for task ':app:processDebugNavigationResources' with cache key 2fd1866024d7bb46655cc11354006bb3
+Resolve mutations for :app:parseDebugLocalResources (Thread[#311,Execution worker Thread 3,5,main]) started.
+:app:parseDebugLocalResources (Thread[#311,Execution worker Thread 3,5,main]) started.
+
+> Task :app:parseDebugLocalResources FROM-CACHE
+Build cache key for task ':app:parseDebugLocalResources' is e41ab3a0bcd7bd965077b036c813fce0
+Task ':app:parseDebugLocalResources' is not up-to-date because:
+  Output property 'librarySymbolsFile' file /app/applet/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt has been removed.
+Loaded cache entry for task ':app:parseDebugLocalResources' with cache key e41ab3a0bcd7bd965077b036c813fce0
+Resolve mutations for :app:generateDebugRFile (Thread[#311,Execution worker Thread 3,5,main]) started.
+:app:generateDebugRFile (Thread[#311,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugRFile FROM-CACHE
+Build cache key for task ':app:generateDebugRFile' is d88e4d4eb7a738c6ddb6af50a415f077
+Task ':app:generateDebugRFile' is not up-to-date because:
+  Output property 'RClassOutputJar' file /app/applet/app/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar has been removed.
+  Output property 'symbolsWithPackageNameOutputFile' file /app/applet/app/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt has been removed.
+  Output property 'textSymbolOutputFileProperty' file /app/applet/app/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt has been removed.
+Loaded cache entry for task ':app:generateDebugRFile' with cache key d88e4d4eb7a738c6ddb6af50a415f077
+Resolve mutations for :app:compileDebugKotlin (Thread[#311,Execution worker Thread 3,5,main]) started.
+:app:compileDebugKotlin (Thread[#311,Execution worker Thread 3,5,main]) started.
+
+> Task :app:compileDebugKotlin FROM-CACHE
+file or directory '/app/applet/app/src/main/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/debug/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/main/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/debug/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/main/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/debug/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+Build cache key for task ':app:compileDebugKotlin' is 6521d4d061e061fcaa8d5532d88d5654
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Output property 'classpathSnapshotProperties.classpathSnapshotDir' file /app/applet/app/build/kotlin/compileDebugKotlin/classpath-snapshot has been removed.
+  Output property 'destinationDirectory' file /app/applet/app/build/intermediates/built_in_kotlinc/debug/compileDebugKotlin/classes has been removed.
+  Output property 'destinationDirectory' file /app/applet/app/build/intermediates/built_in_kotlinc/debug/compileDebugKotlin/classes/com has been removed.
+  and more...
+Loaded cache entry for task ':app:compileDebugKotlin' with cache key 6521d4d061e061fcaa8d5532d88d5654
+Build 32c56a51-26fc-446d-935e-4828237c94ac is closed
+
+BUILD SUCCESSFUL in 2s
+10 actionable tasks: 1 executed, 9 from cache
+Configuration cache entry reused.

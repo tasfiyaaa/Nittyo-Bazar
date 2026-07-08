@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Nittyo Bazar",
+  "description": "Nittyo Bazar is a premium clothing and fashion online shop app built with Jetpack Compose and Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
